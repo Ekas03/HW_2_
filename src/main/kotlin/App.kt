@@ -24,7 +24,7 @@ class App {
 
             try {
                 choice = readln().toInt()
-                if (choice < 1 || choice > 2) {
+                if (choice < 1 || choice > 3) {
                     throw error_format
                 }
             } catch (e: Exception) {

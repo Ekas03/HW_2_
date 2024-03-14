@@ -15,9 +15,6 @@ class Administrator(login : Int, password : String) {
         MenuVisitor.prices.add(price)
         MenuVisitor.time.add(time)
 
-        print(MenuVisitor.prices.size)
-        print(MenuVisitor.time.size)
-
     }
 
     fun deleteDish() {
